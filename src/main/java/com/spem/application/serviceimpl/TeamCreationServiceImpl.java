@@ -347,6 +347,7 @@ public class TeamCreationServiceImpl implements TeamCreationService {
             }
         }  
             System.out.println("groups-------tech------"+groups);
+		System.out.println("Trying something");
 			for (Integer number : groupsWithProperGroup) {
 				for (Reader r : studentsListWithGroupAfterTechnology) {
 					if(number.equals(r.getGroupId())) {
