@@ -1,0 +1,8 @@
+<div class = "backgroundColor">
+    <angular-file-uploader
+          [config]="afuConfig"
+          (fileSelected)="fileSelected($event)"
+          (ApiResponse)="docUpload($event)">
+    </angular-file-uploader>
+    <button (click)="showTeams()">click me</button>
+</div>
